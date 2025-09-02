@@ -61,7 +61,7 @@ blocks:
   id: variable
   parameters:
     comment: ''
-    value: ((-8,-6,-4,-2,-1,1,2,4,6,8),)
+    value: ((-10,-8,-6,-5,-4,-2,-1,1,2,4,5,6,8,10),)
   states:
     bus_sink: false
     bus_source: false
@@ -299,8 +299,8 @@ blocks:
   parameters:
     affinity: ''
     alias: ''
-    attenuation1: '12'
-    bandwidth: '2000000'
+    attenuation1: '15'
+    bandwidth: '4000000'
     buffer_size: '32768 '
     comment: ''
     cyclic: 'False'
@@ -602,16 +602,16 @@ blocks:
     affinity: ''
     alias: ''
     amp: 'False'
-    bandwidth: '2000000'
+    bandwidth: '4000000'
     center_freq: '776000000'
     comment: ''
     dev_args: driver=remote,remote=tcp://192.168.128.210:55132,remote:driver=hackrf
-    gain: '20'
+    gain: '16'
     maxoutbuf: '0'
     minoutbuf: '0'
     samp_rate: samp_rate
     type: fc32
-    vga: '20'
+    vga: '16'
   states:
     bus_sink: false
     bus_source: false
